@@ -10,7 +10,7 @@ Impute numeric missing values with interpolation. Replace categorical missing va
 Compute a series of plots, including pie charts, bar charts, line charts, and correlation matrix plot. Generate useful insights from data. 
 
 ## Feature engineering:
-Encode categorical variables. Utilize SMOTE resampling method to resolve the issue of imbalanced response variable, hospital_death. Apply principal component analysis for demision reduction. 
+Encode categorical variables. Utilize SMOTE resampling method to resolve the issue of imbalanced response variable, hospital_death. Apply principal component analysis (PCA) for demision reduction. 
 
 ## Models Construction:
 Apply decision tree random forest, logistic regression, and K-NN to training dataset. Plot confusion matrix and ROC curves. Since the random forest model has the highest cv accuracy, I use this model to predict patient survival rate. None of the models have overfitting issue, as cv accuracies and test accuracies are roughly equal. 
